@@ -76,6 +76,7 @@ Turn your OBEGRÄNSAD LED Wall Lamp into a live drawing canvas
 - Space Invaders
 - Falling Sand
 - Flappy Bird
+- Tetris
 - Bouncing Ball
 - Auto Walker
 - Spotlight

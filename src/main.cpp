@@ -51,6 +51,7 @@
 #include "plugins/SpotlightPlugin.h"
 #include "plugins/SpiralPlugin.h"
 #include "plugins/StarsPlugin.h"
+#include "plugins/TetrisPlugin.h"
 #include "plugins/TickingClockPlugin.h"
 #include "plugins/WaveBarsPlugin.h"
 #include "plugins/WavePlugin.h"
@@ -236,6 +237,7 @@ void baseSetup()
   pluginManager.addPlugin(new SpaceInvadersPlugin());
   pluginManager.addPlugin(new FallingSandPlugin());
   pluginManager.addPlugin(new FlappyBirdPlugin());
+  pluginManager.addPlugin(new TetrisPlugin());
   pluginManager.addPlugin(new BouncingBallPlugin());
   pluginManager.addPlugin(new AutoWalkerPlugin());
   pluginManager.addPlugin(new SpotlightPlugin());
