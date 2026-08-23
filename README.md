@@ -74,6 +74,7 @@ Turn your OBEGRÄNSAD LED Wall Lamp into a live drawing canvas
 - Pong Clock
 - BigPong
 - Falling Sand
+- Flappy Bird
 - Bouncing Ball
 - Auto Walker
 - Face

@@ -36,6 +36,7 @@
 #include "plugins/FallingSandPlugin.h"
 #include "plugins/FirefliesPlugin.h"
 #include "plugins/FireworkPlugin.h"
+#include "plugins/FlappyBirdPlugin.h"
 #include "plugins/GameOfLifePlugin.h"
 #include "plugins/LinesPlugin.h"
 #include "plugins/MatrixRainPlugin.h"
@@ -231,6 +232,7 @@ void baseSetup()
 
   pluginManager.addPlugin(new BigPongPlugin());
   pluginManager.addPlugin(new FallingSandPlugin());
+  pluginManager.addPlugin(new FlappyBirdPlugin());
   pluginManager.addPlugin(new BouncingBallPlugin());
   pluginManager.addPlugin(new AutoWalkerPlugin());
   pluginManager.addPlugin(new FacePlugin());
