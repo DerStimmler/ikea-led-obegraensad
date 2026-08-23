@@ -24,6 +24,7 @@
 #include "plugins/AutoWalkerPlugin.h"
 #include "plugins/BigPongPlugin.h"
 #include "plugins/Blob.h"
+#include "plugins/BouncingBallPlugin.h"
 #include "plugins/BreakoutPlugin.h"
 #include "plugins/BubblesPlugin.h"
 #include "plugins/CheckerboardPlugin.h"
@@ -227,6 +228,7 @@ void baseSetup()
 #endif
 
   pluginManager.addPlugin(new BigPongPlugin());
+  pluginManager.addPlugin(new BouncingBallPlugin());
   pluginManager.addPlugin(new AutoWalkerPlugin());
   Screen.clear();
   pluginManager.init();
