@@ -21,6 +21,7 @@
 #include "scheduler.h"
 
 #include "plugins/ArtNet.h"
+#include "plugins/AutoWalkerPlugin.h"
 #include "plugins/Blob.h"
 #include "plugins/BreakoutPlugin.h"
 #include "plugins/BubblesPlugin.h"
@@ -224,6 +225,7 @@ void baseSetup()
   pluginManager.addPlugin(new ArtNetPlugin());
 #endif
 
+  pluginManager.addPlugin(new AutoWalkerPlugin());
   Screen.clear();
   pluginManager.init();
   Scheduler.init();
