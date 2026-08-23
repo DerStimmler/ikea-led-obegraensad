@@ -48,6 +48,7 @@
 #include "plugins/SnakePlugin.h"
 #include "plugins/SpaceInvadersPlugin.h"
 #include "plugins/SparkleFieldPlugin.h"
+#include "plugins/SpotlightPlugin.h"
 #include "plugins/SpiralPlugin.h"
 #include "plugins/StarsPlugin.h"
 #include "plugins/TickingClockPlugin.h"
@@ -237,6 +238,7 @@ void baseSetup()
   pluginManager.addPlugin(new FlappyBirdPlugin());
   pluginManager.addPlugin(new BouncingBallPlugin());
   pluginManager.addPlugin(new AutoWalkerPlugin());
+  pluginManager.addPlugin(new SpotlightPlugin());
   pluginManager.addPlugin(new FacePlugin());
   Screen.clear();
   pluginManager.init();

@@ -78,6 +78,7 @@ Turn your OBEGRÄNSAD LED Wall Lamp into a live drawing canvas
 - Flappy Bird
 - Bouncing Ball
 - Auto Walker
+- Spotlight
 - Face
 
 </details>
