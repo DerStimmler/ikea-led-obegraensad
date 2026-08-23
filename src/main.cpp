@@ -46,6 +46,7 @@
 #include "plugins/RainPlugin.h"
 #include "plugins/ScanlinesPlugin.h"
 #include "plugins/SnakePlugin.h"
+#include "plugins/SpaceInvadersPlugin.h"
 #include "plugins/SparkleFieldPlugin.h"
 #include "plugins/SpiralPlugin.h"
 #include "plugins/StarsPlugin.h"
@@ -231,6 +232,7 @@ void baseSetup()
 #endif
 
   pluginManager.addPlugin(new BigPongPlugin());
+  pluginManager.addPlugin(new SpaceInvadersPlugin());
   pluginManager.addPlugin(new FallingSandPlugin());
   pluginManager.addPlugin(new FlappyBirdPlugin());
   pluginManager.addPlugin(new BouncingBallPlugin());
